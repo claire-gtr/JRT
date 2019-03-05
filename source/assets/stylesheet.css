@@ -2,6 +2,13 @@ body {
   background-color:  #FAF6E9;
 }
 
+.main-container {
+  height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
 .navbar-jrt {
   background-color: #FAF6E9;
   height: 5rem;
@@ -97,3 +104,25 @@ body {
   border-top: 1px solid #E6E6E6;
 }
 
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.home-logo {
+  font-family: 'Cinzel Decorative';
+  font-size: 8.5rem;
+  color: #596E79;
+  letter-spacing: 4rem;
+  margin-right: -4rem;
+}
+
+.home-description {
+  font-family: 'Montserrat';
+  font-size: 0.75rem;
+  color: #596E79;
+}
