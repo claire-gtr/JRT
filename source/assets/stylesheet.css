@@ -1,12 +1,12 @@
-body {
-  background-color:  #FAF6E9;
-}
-
 .main-container {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   display: block;
   position: relative;
+}
+
+.index-container {
+  background-color:  #FAF6E9;
 }
 
 .navbar-jrt {
@@ -32,6 +32,10 @@ body {
   color: #FAF6E9;
 }
 
+.navbar-logo-image {
+  height: 3rem;
+}
+
 .navbar-jrt-right {
   display: flex;
   align-items: center;
@@ -53,7 +57,7 @@ body {
 }
 
 .dropdown i {
-  color: #596E79;
+  color: #264E70;
 }
 
 .dropdown-toggle:after {
@@ -62,12 +66,12 @@ body {
 
 .navbar-jrt-link {
   font-family: 'Old Standard TT';
-  font-size: 1rem;
-  color: #596E79;
+  font-size: 0.8rem;
+  color: #264E70;
   text-decoration: none;
 }
 .navbar-jrt-link:hover {
-  color: #596E79;
+  color: #264E70;
   text-decoration: none;
 }
 
@@ -82,7 +86,7 @@ body {
   transition: color 0.3s ease;
   font-family: 'Old Standard TT';
   font-size: 0.75rem;
-  color: #596E79;
+  color: #264E70;
   text-decoration: none;
   line-height: 1rem !important;
   padding: 0.25rem 0.75rem;
@@ -113,16 +117,34 @@ body {
   min-height: 100vh;
 }
 
-.home-logo {
-  font-family: 'Cinzel Decorative';
-  font-size: 8.5rem;
-  color: #596E79;
-  letter-spacing: 4rem;
-  margin-right: -4rem;
+.home-logo-image {
+  height: 10rem;
+  padding: 0.5rem;
 }
 
 .home-description {
   font-family: 'Montserrat';
   font-size: 0.75rem;
-  color: #596E79;
+  color: #264E70;
+}
+
+.navbar-bold {
+  font-weight: 700;
+}
+
+.presentation-text {
+  font-family: 'Old Standard TT';
+  font-size: 0.85rem;
+  color: #264E70;
+  padding: 6rem 0rem 1rem 1rem;
+}
+
+.half-page-image {
+  padding: 0 !important;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
