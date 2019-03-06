@@ -132,7 +132,7 @@
   font-weight: 700;
 }
 
-.presentation-text {
+.half-page-text {
   font-family: 'Old Standard TT';
   font-size: 0.85rem;
   color: #264E70;
@@ -147,4 +147,7 @@
   width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+.specialities-icon {
+  padding: 0.5rem;
 }
