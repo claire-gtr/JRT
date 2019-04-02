@@ -136,11 +136,11 @@
   font-family: 'Old Standard TT';
   font-size: 0.85rem;
   color: #264E70;
-  padding: 6rem 0rem 1rem 1rem;
+  padding: 6rem 0rem 0rem 1rem;
 }
 
 .half-page-image {
-  padding: 0 !important;
+  padding: 0rem 0rem 0rem 0rem !important;
 }
 
 .img-cover {
@@ -150,4 +150,29 @@
 }
 .specialities-icon {
   padding: 0.5rem;
+}
+
+input[type=text] {
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding:5px 15px 2px 15px !important;
+}
+
+input[type=submit]:hover {
+  font-weight: bold;
+}
+
+textarea {
+  border: 1px solid #999;
+  border-radius: 4px;
 }
