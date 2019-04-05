@@ -119,7 +119,7 @@
 
 .home-logo-image {
   height: 10rem;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
 .home-description {
@@ -150,6 +150,17 @@
 }
 .specialities-icon {
   padding: 0.5rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: #264E70;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #264E70;
+  font-weight: bold;
 }
 
 input[type=text] {
