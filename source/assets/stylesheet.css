@@ -5,6 +5,15 @@
   position: relative;
 }
 
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
 .index-container {
   background-color:  #FAF6E9;
   height: 100vh;
@@ -140,7 +149,7 @@
 
 .half-page-text {
   font-family: 'Old Standard TT';
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #264E70;
   padding: 6rem 0rem 0rem 1rem;
 }
@@ -152,11 +161,7 @@
 .img-cover {
   width: 100%;
   height: 100vh;
-  padding-top: 5rem;
   object-fit: cover;
-}
-.specialities-icon {
-  padding-right: 0.25rem;
 }
 
 a {
